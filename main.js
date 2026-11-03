@@ -6,4 +6,4 @@ divs.forEach(function(div) {
 div.style.opacity = 0;
 });
 }
-setTimeout(randomize, 6000);
+document.addEventListener("click", randomize);
